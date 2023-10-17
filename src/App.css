@@ -1,8 +1,21 @@
 .App {
   text-align: center;
+  background-color: white;
+  border: black solid 2px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 20px;
+  max-height: fit-content;
+  max-width: fit-content;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
 }
 
-.App-logo {
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
